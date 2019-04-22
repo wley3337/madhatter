@@ -6,9 +6,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('/img/card-background-with-frame.png') no-repeat center center fixed;
+  background-size: 100% 100%;
+  
 }
+/* .main{
+  height: 100vh;
+  width: 100vw;
+  background: url('/img/card-outline.png')no-repeat center center fixed;
+  -webkit-background-size: 91%;
+  -moz-background-size: 91%;
+  -o-background-size: 91%;
+  background-size: 91%;
+  z-index: 1;
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* ABOUT PAGE STYLING */
+.about-bg{
+  background: rgb(104,27,104, .65);
+}
+
+.about-main{
+  display: grid;
+}
+.nutshell-text{
+  color: #fff;
+  opacity: 1;
 }

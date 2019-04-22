@@ -6,7 +6,7 @@ import About from './About'
 class Main extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="main">
         <p>up and running </p>
         <Route path='/about/:pathDetail' render={(props) => <About {...props}/>} />
       </div>
