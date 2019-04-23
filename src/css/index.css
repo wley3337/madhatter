@@ -26,6 +26,81 @@ code {
     monospace;
 }
 
+/* MAIN STYLING */
+#main{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 15%, 70%, 8%;
+  grid-template-areas: 
+  "header" 
+  "body" 
+  "home-button";
+}
+
+#home-icon-div{
+  grid-area: home-button;
+  display: grid;
+  grid-template-columns: auto 20% auto;
+  grid-template-rows: auto 10%;
+  grid-template-areas:
+  "." "." "."
+  "." "button" ".";
+}
+#home-link{
+  grid-area: button;
+  border: #fff;
+  border-width: 1px;
+  border-style: solid;
+  justify-self: center;
+  align-self: flex-end;
+  height: 85px;
+  width: 85px;
+  background: url("/img/white-icon.png") no-repeat center center;
+  background-size: 130%;
+}
+
+
+/* MAIN MENU STYLING */
+
+#main-menu{
+  height: 100%;
+  width: 100%;
+  grid-area: body;
+  display: grid;
+  grid-template-columns: auto 70% auto;
+  grid-template-rows: auto 70% auto;
+}
+#main-menu .carousel{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start:2;
+  grid-row-end: 3;
+}
+.main-about{
+  max-height: 100%;
+  max-width: 100%;
+  display: grid;
+
+}
+#about-img{
+  padding-top: 50px;
+  padding-bottom: 60px;
+  height: 100%;
+  width: 100%;
+}
+#projects-img{
+  height: 100%;
+  width: 100%
+}
+#blogs-img{
+  padding-top: 50px;
+  padding-bottom: 60px;;
+  height: 100%;
+  width: 100%;
+}
+
+
 /* ABOUT PAGE STYLING */
 .about-bg{
   background: rgb(104,27,104, .65);
