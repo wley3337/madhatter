@@ -3,7 +3,7 @@ import React from 'react'
 
 const Exploration = () =>{
     return (
-        <div className="about-text about-bg">
+        <div className="text about-bg">
         <p className="about-title">What Will is Exploring</p>
         <p>Increased understanding of:</p>
         <ul>
