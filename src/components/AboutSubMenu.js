@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const AboutSubMenu = ({link1, link2, link3}) =>{
     return(
-        <div>
+        <div className="about-submenu-wrapper">
             <div className="about-submenu-1">
                 {link1 === '/about/in-a-nutshell' ? 
                     <Link to='/about/in-a-nutshell'>

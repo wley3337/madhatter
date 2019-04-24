@@ -8,32 +8,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: url('/img/card-background-with-frame.png') no-repeat center center fixed;
   background-size: 100% 100%;
-  
 }
-/* .main{
-  height: 100vh;
-  width: 100vw;
-  background: url('/img/card-outline.png')no-repeat center center fixed;
-  -webkit-background-size: 91%;
-  -moz-background-size: 91%;
-  -o-background-size: 91%;
-  background-size: 91%;
-  z-index: 1;
-} */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+
+
 
 /* MAIN STYLING */
 #main{
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-rows: 15%, 70%, 8%;
+  grid-template-rows:  1fr, auto;
   grid-template-areas: 
-  "header" 
   "body" 
   "home-button";
 }
@@ -41,23 +27,24 @@ code {
 #home-icon-div{
   grid-area: home-button;
   display: grid;
-  grid-template-columns: auto 20% auto;
-  grid-template-rows: auto 10%;
-  grid-template-areas:
-  "." "." "."
-  "." "button" ".";
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto 1fr;
+  
 }
 #home-link{
-  grid-area: button;
-  border: #fff;
-  border-width: 1px;
-  border-style: solid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  /* border: #fff; */
+  /* border-width: 1px; */
+  /* border-style: solid; */
   justify-self: center;
-  align-self: flex-end;
-  height: 85px;
-  width: 85px;
+  align-self: end;
+  height: 65px;
+  width: 65px;
   background: url("/img/white-icon.png") no-repeat center center;
-  background-size: 130%;
+  background-size: 140%;
 }
 
 
@@ -77,12 +64,7 @@ code {
   grid-row-start:2;
   grid-row-end: 3;
 }
-.main-about{
-  max-height: 100%;
-  max-width: 100%;
-  display: grid;
 
-}
 #about-img{
   padding-top: 50px;
   padding-bottom: 60px;
@@ -102,14 +84,39 @@ code {
 
 
 /* ABOUT PAGE STYLING */
-.about-bg{
-  background: rgb(104,27,104, .65);
-}
 
 .about-main{
+  grid-area: body;
+  justify-self: center; 
   display: grid;
+  display: subgrid;
+  grid-template-rows:   30px 3fr 1fr;
+  grid-template-columns: 50px 1fr 50px;
+}
+.about-bg{
+  
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background: rgb(104,27,104, .65);
+  overflow: scroll;
 }
 .text{
   color: #fff;
   opacity: 1;
+}
+
+
+/* NUTSHELL STYLING */
+
+
+
+/* SUB MENU STYLING */
+.about-submenu-wrapper{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  
 }
