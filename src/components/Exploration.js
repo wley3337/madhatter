@@ -15,6 +15,7 @@ const Exploration = () =>{
                     </ul>
             </li>
             <li>3D Modeling (outside of CAD)</li>
+            <li>Vim (inside of VSCode)</li>
             <li>C#</li>
             
         </ul>
