@@ -1,16 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url('/img/card-background-with-frame.png') no-repeat center center fixed;
   background-size: 100% 100%;
 }
-
-
 
 
 /* MAIN STYLING */
@@ -92,8 +88,8 @@ body {
   content: normal;
   /* grid-template-columns: subgrid;
   grid-template-rows: subgrid; */
-  grid-template-rows:   30px 500px 1fr ;
-  grid-template-columns: 30px minmax(315px,1fr) 30px;
+  grid-template-rows:   30px 480px 1fr ;
+  grid-template-columns: 30px minmax(310px,330px) 30px;
 }
 .about-bg{
   padding: 10px;
@@ -266,25 +262,40 @@ body {
   content: normal;
   /* grid-template-columns: subgrid;
   grid-template-rows: subgrid; */
-  grid-template-rows:   30px 250px 300px 1fr ;
-  grid-template-columns: 30px minmax(315px,1fr) 30px;
+  grid-template-rows:   30px 230px 280px 1fr ;
+  grid-template-columns: 30px minmax(300px,1fr) 30px;
   grid-row-gap: 10px;
   
   
 }
 .project-main-working{
-  padding: 10px;
+  padding: 9px;
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 2;
   grid-column-end: 3;
-  height: 100%;
-  width: 100%;
+  display: grid;
+  grid-template-rows: 40px 170px;
   /* border: 1px solid #b6ffff; */
   background: rgb(104,27,104, .65);
-  overflow-y: scroll;
+ 
 }
 
+.project-main-working > p{
+  font-weight: 200;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border-bottom: 1px solid black;
+ 
+}
+
+.in-progress-wrapper, .projects-wrapper{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%; 
+}
 
 
 .project-main-projects{
@@ -296,26 +307,67 @@ body {
   height: 100%;
   width: 100%;
   background: rgb(182,255,255, .40);
-  /* background: rgb(104,27,104, .65); */
-  overflow-y: scroll;
+  
+  display: grid;
+  grid-template-rows: 40px 220px;
 }
+
+.project-main-projects > p{
+  font-weight: 200;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  
+  border-bottom: 1px solid black;
+}
+
+
 .project-brief-div{
+  
   padding: 4px;
-  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   font-size: 80%;
 
 }
 
 .project-header{
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-areas: "title blank icon";
+  justify-content: space-evenly;
+  width: 100%;
+}
+.project-brief-title{
+  grid-area: title;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  align-self: center;
+  
 }
 
+.project-header > a{
+  grid-column-start: 4;
+  grid-column-end: 5;
+
+}
 .project-github{
-  float: right;
+
   background: url("/img/chesserOctocat.png") no-repeat center center;
   background-size: 100%;
   height: 40px;
   width: 40px;
   background-color: rgb(129,212,250, .4);
   border-radius: 25px;
+}
+
+.project-brief-desc{
+  font-weight: 200;
+}
+
+.project-brief-tech{
+  font-weight: 200;
+}
+.project-brief-tech > strong{
+  font-weight: bold;
+  font-size: 95%;
+  letter-spacing: .9px;
 }

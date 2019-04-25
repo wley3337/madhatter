@@ -5,14 +5,14 @@ const ProjectBrief = ({title, description, githubLink, techUsed})=>{
         <div className="project-brief-div">
             <div className="project-header">
                 <p className="project-brief-title">{title}</p>
-                
+
                 <a href={githubLink} target="_blank" rel="noopener noreferrer">
                     <div className="project-github"></div>
                 </a>
 
             </div>
             <p className="project-brief-desc">{description}</p>
-            <p className="project-brief-tech">Tech used: {techUsed}</p>
+            <p className="project-brief-tech"><strong>Tech used:</strong>  {techUsed}</p>
 
         </div>
     )

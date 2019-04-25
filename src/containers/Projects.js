@@ -7,14 +7,15 @@ const Projects = () =>{
         <div className="project-main text">
             <div className="project-main-working">
                 <p>Projects in progress:</p>
-
-                {inProgressProjects.map(project => <ProjectBrief key={project.id} {...project} />)}
-                
+                <div className="in-progress-wrapper">
+                    {inProgressProjects.map(project => <ProjectBrief key={project.id} {...project} />)}
+                </div>
             </div>
             <div className="project-main-projects">
                 <p >My projects:</p>
-                {projects.map(project => <ProjectBrief key={project.id} {...project} />)}
-
+                <div className="projects-wrapper">
+                    {projects.map(project => <ProjectBrief key={project.id} {...project} />)}
+                </div>
             </div>
         </div>
     )
