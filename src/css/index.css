@@ -316,13 +316,11 @@ body {
   font-weight: 200;
   grid-row-start: 1;
   grid-row-end: 2;
-  
   border-bottom: 1px solid black;
 }
 
 
 .project-brief-div{
-  
   padding: 4px;
   border-bottom: 1px solid black;
   font-size: 80%;
@@ -370,4 +368,49 @@ body {
   font-weight: bold;
   font-size: 95%;
   letter-spacing: .9px;
+}
+
+
+/* BLOG STYLING */
+.blogs-main{
+  grid-area: body;
+  justify-self: center; 
+  display: grid;
+  content: normal;
+
+  grid-template-rows:   30px 230px 280px 1fr ;
+  grid-template-columns: 30px minmax(300px,1fr) 30px;
+  grid-row-gap: 10px;
+
+}
+
+
+.blogs-detail{
+  padding: 10px;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 100%;
+  width: 100%;
+  background: rgb(182,255,255, .40);
+  
+  display: grid;
+  grid-template-rows: 40px 220px; 
+}
+
+.blogs-main > p{
+  font-weight: 200;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border-bottom: 1px solid black;
+}
+
+.blogs-icon{
+  background: url("/img/reporter-hat-with-card.png") no-repeat center center;
+  background-size: 100%;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(129,212,250, .4);
+  border-radius: 25px; 
 }
