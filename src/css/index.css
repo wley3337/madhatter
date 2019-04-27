@@ -52,7 +52,7 @@ body {
   width: 100%;
   grid-area: body;
   display: grid;
-  grid-template-columns: auto 70% auto;
+  grid-template-columns: auto 80% auto;
   grid-template-rows: auto 70% auto;
 }
 #main-menu .carousel{
@@ -76,6 +76,11 @@ body {
 .main-menu-title-div{
   grid-column-start: 2;
   grid-column-end: 3;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.5px;
 }
 
 #blogs-img{
@@ -90,7 +95,41 @@ body {
   justify-self: center;
   text-align: center;
 }
+/* icon for forward and backward */
+.carousel-control-prev{
+  align-items: flex-end;
+  opacity:1;
+}
+.carousel-control-prev-icon{
+  /* background: rgb(104,27,104, .65); */
+  background-color: rgb(182,255,255, .7);
+  background-image: url("/img/to-the-left.png");
+  background-size: 120%;
+  opacity: .9;
+  border-radius: 20px;
+}
+.carousel-control-next{
+  align-items: flex-end;
+  opacity:1;
+}
+.carousel-control-next-icon{
+  background-color: rgb(182,255,255, .7); 
+  background-image: url("/img/to-the-right.png");
+  background-size: 120%;
+  border-radius: 20px;
+  /* background: rgb(104,27,104, .65); */
+}
 
+.main-menu-icon{
+ 
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-self: center;
+  height: 90px;
+  width: 90px;
+  background: url("/img/white-icon.png") no-repeat center center;
+  background-size: 140%; 
+}
 
 
 /* ABOUT PAGE STYLING */
@@ -102,7 +141,7 @@ body {
   content: normal;
   /* grid-template-columns: subgrid;
   grid-template-rows: subgrid; */
-  grid-template-rows:   30px 480px 1fr ;
+  grid-template-rows:   30px 470px 1fr ;
   grid-template-columns: 30px minmax(310px,330px) 30px;
 }
 .about-bg{
@@ -114,14 +153,19 @@ body {
   height: 100%;
   width: 100%;
   /* display: grid; */
-  background: rgb(104,27,104, .65);
   overflow-y: scroll;
+  background-color: rgb(156,77,204, .6);
 }
 .text{
   color: #fff;
   opacity: 1;
 }
-
+.about-bg > div{
+  background: rgb(56,0,107, .8);
+  padding: 9px;
+  min-height: 450px;
+  
+}
 
 /* CONTACT STYLING */
 

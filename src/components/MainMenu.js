@@ -6,6 +6,8 @@ const MainMenu = () =>{
     return(
         <div id="main-menu">
             <div className="text main-menu-title-div">Welcome to the home of the Madhatter</div>
+            <div className="main-menu-icon">
+            </div>
 
             <Carousel interval={null} indicators={false} >
                 <Carousel.Item>
@@ -30,8 +32,6 @@ const MainMenu = () =>{
                 </Carousel.Item>
             </Carousel>
 
-            <div className="main-menu-icon">
-            </div>
         </div>
     )
 }

@@ -12,10 +12,13 @@ import Exploration from '../components/Exploration';
 const About = ({location}) => {
     return(
         <div className="about-main">
+       
             <Route exact path='/about/in-a-nutshell' component={InANutshell}/>
             <Route exact path='/about/contact' component={Contact}/>
             <Route exact path='/about/what-will-knows' component={WhatWillKnows}/>
             <Route exact path='/about/exploration' component={Exploration}/>
+
+       
             <AboutSubMenu
             link1={linkReturns(location.pathname)[0]}
             link2={linkReturns(location.pathname)[1]}

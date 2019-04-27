@@ -4,6 +4,8 @@ import React from 'react'
 const Exploration = () =>{
     return (
         <div className="text about-bg">
+        <div>
+
         <p className="about-title">What Will is Exploring</p>
         <p>Increased understanding of:</p>
         <ul>
@@ -19,6 +21,7 @@ const Exploration = () =>{
             <li>C#</li>
             
         </ul>
+        </div>
     </div>
     )
 }
