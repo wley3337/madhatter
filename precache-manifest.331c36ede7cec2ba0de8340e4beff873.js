@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/madhatter/static/js/runtime~main.99e80f8d.js"
   },
   {
-    "revision": "86a4b379c046ac8a49b5",
+    "revision": "b2d6539521d0662545e2",
     "url": "/madhatter/static/js/main.9bd2dcd6.chunk.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/madhatter/static/js/2.bd16c437.chunk.js"
   },
   {
-    "revision": "86a4b379c046ac8a49b5",
-    "url": "/madhatter/static/css/main.8df0713a.chunk.css"
+    "revision": "b2d6539521d0662545e2",
+    "url": "/madhatter/static/css/main.7db89f51.chunk.css"
   },
   {
-    "revision": "5ee3452147582d4daf02161e31c42b38",
+    "revision": "fb05a8c478fb964854ebcd71b726d670",
     "url": "/madhatter/index.html"
   }
 ];
