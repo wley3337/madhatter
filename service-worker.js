@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/madhatter/precache-manifest.aaaf23da06340a3e0c2ccbc485003a6d.js"
+  "/madhatter/precache-manifest.697893e23747b901a8de80071aa0b593.js"
 );
 
 workbox.clientsClaim();
