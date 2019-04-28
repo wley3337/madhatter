@@ -531,7 +531,7 @@ body {
 #desktop-background{
     display: grid;
     grid-template-rows: 150px minmax(600px, 600px) 1fr;
-    grid-template-columns: 1fr minmax(200px, 800px) 1fr 50px;
+    grid-template-columns: 1fr minmax(200px, 800px) 400px 50px;
     column-gap: 10px;
     grid-template-areas:  
       "dt1 dtheader dt2 dtfiller"
