@@ -6,7 +6,7 @@ const Blogs = () => {
     return(
         <div className="text blogs-main">
             <span>
-                <p className="blogs-main-title">Here you'll find a sample of my blog posts. You can find the compleate list hosted on <a href="https://medium.com/@wley3337" alt="medium profile page" target="_blank" rel="noopener noreferrer" className="blogs-link-text"> Medium</a></p>
+                <p className="blogs-main-title">Here you'll find a sample of my blog posts. You can find the complete list hosted on <a href="https://medium.com/@wley3337" alt="medium profile page" target="_blank" rel="noopener noreferrer" className="blogs-link-text"> Medium</a></p>
             </span>
             
             <div className="blogs-details-wrapper">

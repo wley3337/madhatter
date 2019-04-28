@@ -13,7 +13,7 @@ const Exploration = () =>{
             <li>JavaScript Testing
                     <ul>
                         <li>Mocha</li>
-                        <li>Enzime</li>
+                        <li>Enzyme</li>
                     </ul>
             </li>
             <li>3D Modeling (outside of CAD)</li>
