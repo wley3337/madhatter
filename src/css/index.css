@@ -1,10 +1,13 @@
+/* current image root extension for deployment: https://wley3337.github.io/madhatter */
+
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('/img/card-background-with-frame.png') no-repeat center center fixed;
+  background: url('https://wley3337.github.io/madhatter/img/card-background-with-frame.png') no-repeat center center fixed;
   background-size: 100% 100%;
 }
 
@@ -37,7 +40,7 @@ body {
   align-self: end;
   height: 65px;
   width: 65px;
-  background: url("/img/white-icon.png") no-repeat center center;
+  background: url("https://wley3337.github.io/madhatter/img/white-icon.png") no-repeat center center;
   background-size: 140%;
 }
 
@@ -98,9 +101,7 @@ body {
   opacity:1;
 }
 .carousel-control-prev-icon{
-  /* background: rgb(104,27,104, .65); */
-  /* background-color: rgb(182,255,255, .4); */
-  background-image: url("/img/to-the-left.png");
+  background-image: url("https://wley3337.github.io/madhatter/img/to-the-left.png");
   background-size: 120%;
   opacity: .9;
   border-radius: 20px;
@@ -113,14 +114,12 @@ body {
   opacity:1;
 }
 .carousel-control-next-icon{
-  /* background-color: rgb(182,255,255, .4);  */
-  background-image: url("/img/to-the-right.png");
+  background-image: url("https://wley3337.github.io/madhatter/img/to-the-right.png");
   background-size: 120%;
   border-radius: 20px;
   width: 30px;
   height: 30px;
   animation: glow 4s ease-out infinite;
-  /* background: rgb(104,27,104, .65); */
 }
 
 
@@ -144,7 +143,7 @@ body {
   justify-self: center;
   height: 90px;
   width: 90px;
-  background: url("/img/white-icon.png") no-repeat center center;
+  background: url("https://wley3337.github.io/madhatter/img/white-icon.png") no-repeat center center;
   background-size: 140%; 
 }
 
@@ -156,8 +155,6 @@ body {
   justify-self: center; 
   display: grid;
   content: normal;
-  /* grid-template-columns: subgrid;
-  grid-template-rows: subgrid; */
   grid-template-rows:   30px 470px 1fr ;
   grid-template-columns: 30px minmax(310px,330px) 30px;
 }
@@ -209,7 +206,7 @@ body {
 }
 .contact-linked-in{
   line-height: 10;
-  background: url("/img/linked-in.png") no-repeat center center;
+  background: url("https://wley3337.github.io/madhatter/img/linked-in.png") no-repeat center center;
   background-size: 85%;
   height: 80px;
   width: 80px;
@@ -218,7 +215,7 @@ body {
 }
 .contact-github{
   line-height: 10;
-  background: url("/img/chesserOctocat.png") no-repeat center center;
+  background: url("https://wley3337.github.io/madhatter/img/chesserOctocat.png") no-repeat center center;
   background-size: 100%;
   height: 80px;
   width: 80px;
@@ -229,8 +226,7 @@ body {
   color: #b6ffff;
   padding-top: 55px;
   font-size: 90%;
-  /* line-height: 8; */
-  background: url("/img/reporter-hat-with-card.png") no-repeat center;
+  background: url("https://wley3337.github.io/madhatter/img/reporter-hat-with-card.png") no-repeat center;
   background-size: 80%;
   text-align: center;
   height: 80px;
@@ -293,24 +289,22 @@ body {
 
 .what-will-knows-bg{
   line-height: 8;
-  background: url("/img/about-hat.png") no-repeat center center;
+  background: url("https://wley3337.github.io/madhatter/img/about-hat.png") no-repeat center center;
   background-size: 100%;
   height: 65px;
   width: 65px;
 }
 
 .in-a-nutshell-bg{
-  /* text-align: center; */
   line-height: 10;
-  background: url("/img/nutshell.png") no-repeat center center;
+  background: url("https://wley3337.github.io/madhatter/img/nutshell.png") no-repeat center center;
   background-size: 140%;
   height: 65px;
   width: 65px;
 }
 
 .exploration-bg{
-  /* text-align: center; */
-  background: url("/img/explore-icon.png") no-repeat center center;
+  background: url("https://wley3337.github.io/madhatter/img/explore-icon.png") no-repeat center center;
   background-size: 140%;
   height: 65px;
   width: 65px;
@@ -318,10 +312,9 @@ body {
 }
 
 .contact-bg{
-  /* text-align: center; */
   line-height: 10;
   vertical-align: bottom;
-  background: url("/img/mail.png") no-repeat center center;
+  background: url("https://wley3337.github.io/madhatter/img/mail.png") no-repeat center center;
   background-size: 100%;
   height: 65px;
   width: 65px;
@@ -420,7 +413,7 @@ body {
 }
 .project-github{
 
-  background: url("/img/chesserOctocat.png") no-repeat center center;
+  background: url("https://wley3337.github.io/madhatter/img/chesserOctocat.png") no-repeat center center;
   background-size: 100%;
   height: 40px;
   width: 40px;
@@ -463,8 +456,6 @@ body {
   font-size: 92%;
   grid-row-start: 1;
   grid-row-end: 2;
-  /* grid-column-start: 2;
-  grid-column-end: 3; */
   height: 100%;
   width: 100%;
   background-color: rgb(129,212,250, .4);
@@ -483,8 +474,6 @@ body {
   padding: 9px;
   grid-row-start: 2;
   grid-row-end: 3;
-  /* grid-column-start: 2;
-  grid-column-end: 3; */
   overflow-y: scroll;
   width: 350px;
   background-color: rgb(129,212,250, .4)
@@ -520,7 +509,7 @@ body {
   justify-self: center;
 }
 .blogs-icon{
-  background: url("/img/reporter-hat-with-card.png") no-repeat center center;
+  background: url("https://wley3337.github.io/madhatter/img/reporter-hat-with-card.png") no-repeat center center;
   background-size: 80%;
   height: 50px;
   width: 50px;
@@ -533,7 +522,7 @@ body {
 
 @media (min-width: 751px) {
 body {
-  background: url('/img/doors-background.png') no-repeat center center fixed;
+  background: url('https://wley3337.github.io/madhatter/img/doors-background.png') no-repeat center center fixed;
   background-color: rgb(0,0,0); 
   background-size: 100% 100%;
 }
@@ -551,7 +540,6 @@ body {
 }
 
 #main{
-  /* background-color: rgb(56,0,107, .7); */
   grid-area: dtbody;
   height: 100%;
   width:100%;
@@ -560,7 +548,7 @@ body {
 #main-menu{
   border-radius: 3%;
   padding: 20px;
-  background: url('/img/card-background-with-frame.png') no-repeat center center;
+  background: url('https://wley3337.github.io/madhatter/img/card-background-with-frame.png') no-repeat center center;
   background-size: 100% 100%;
   grid-area: dt4;
 }
@@ -645,8 +633,6 @@ body {
   padding: 9px;
   grid-row-start: 2;
   grid-row-end: 3;
-  /* grid-column-start: 2;
-  grid-column-end: 3; */
   overflow-y: scroll;
   width: 100%;
   background-color: rgb(129,212,250, .4)
