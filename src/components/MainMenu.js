@@ -1,18 +1,20 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import Carousel from 'react-bootstrap/Carousel';
 import aboutHat from './carousel-images/about-hat.png'
 import blogHat from './carousel-images/reporter-hat-with-card.png'
 import projectHat from './carousel-images/tophat.png'
 
-const MainMenu = () =>{
+
+
+const MainMenu = ({setSubMenu}) =>{
     return(
         <div id="main-menu">
             <div className="text main-menu-title-div">Welcome to the home of the Madhatter</div>
             {/* <div className="main-menu-icon">
             </div> */}
 
-            <Carousel interval={null} indicators={false} >
+            <Carousel interval={null} indicators={false} onSelect={setSubMenu}>
                 <Carousel.Item>
                     <Link to="/about/in-a-nutshell" >
                         <div className="main-about d-block">

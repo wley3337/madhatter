@@ -12,7 +12,7 @@ import Exploration from '../components/Exploration';
 const About = ({location}) => {
     return(
         <div className="about-main">
-       
+            <Route exact path='/' component={InANutshell}/>
             <Route exact path='/about/in-a-nutshell' component={InANutshell}/>
             <Route exact path='/about/contact' component={Contact}/>
             <Route exact path='/about/what-will-knows' component={WhatWillKnows}/>
