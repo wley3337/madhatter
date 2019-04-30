@@ -9,29 +9,35 @@ const MainMenu = () =>{
     return(
         <div id="main-menu">
             <div className="text main-menu-title-div">Welcome to the home of the Madhatter</div>
-            <div className="main-menu-icon">
-            </div>
+            {/* <div className="main-menu-icon">
+            </div> */}
 
             <Carousel interval={null} indicators={false} >
                 <Carousel.Item>
-                    <div className="main-about d-block">
-                        <Link to="/about/in-a-nutshell" ><img id="about-img" src={aboutHat} alt="about page" /></Link>
-                    </div>
-                    <p className="main-menu-text">About Will</p>
+                    <Link to="/about/in-a-nutshell" >
+                        <div className="main-about d-block">
+                            <img id="about-img" src={aboutHat} alt="about page" />
+                        </div>
+                        <p className="main-menu-text">About Will</p>
+                    </Link>
                 </Carousel.Item>
+
                 <Carousel.Item>
-                    <div className="main-projects d-block">
-                    <Link to="/projects" ><img id="projects-img"src={projectHat} alt="projects page" /></Link>
-                    </div>
+                    <Link to="/projects" >
+                        <div className="main-projects d-block">
+                            <img id="projects-img"src={projectHat} alt="projects page" />
+                        </div>
                         <p className="main-menu-text">Will's Projects</p>
+                    </Link>
                 </Carousel.Item>
+
                 <Carousel.Item>
-                    <div className="main-blogs d-block">
-                        <Link to="/blogs" >
-                        <img id="blogs-img"src={blogHat} alt="blog page" />
-                        </Link>
-                    </div>
-                    <p className="main-menu-text">Will's Blogs</p>
+                    <Link to="/blogs" >
+                        <div className="main-blogs d-block">
+                            <img id="blogs-img"src={blogHat} alt="blog page" />
+                        </div>
+                        <p className="main-menu-text">Will's Blogs</p>
+                    </Link>
                 </Carousel.Item>
             </Carousel>
 
