@@ -7,7 +7,7 @@ body {
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('/img/adjusted-frame.png') no-repeat center center fixed;
+  background: url('https://wley3337.github.io/madhatter/img/adjusted-frame.png') no-repeat center center fixed;
   background-size: 100% 100%;
 }
 
@@ -518,6 +518,8 @@ body {
 }
 .blog-detail-title{
   grid-area: title;
+  color:rgb(182,255,255);
+ letter-spacing: 1.5px;
   /* letter-spacing: 1.5px; */
   font-weight: bold;
   font-size: 90%;

@@ -4,7 +4,10 @@ const BlogDetail = ({title, desc, link}) =>{
     return(
         <div className="text blog-detail">
             <div className="blog-detail-header-wrapper">
-                <p className="blog-detail-title">{title}</p>
+                <a href={link} target="_blank" rel="noopener noreferrer" className="blog-detail-title">
+                <p >{title}</p>
+             
+                </a> 
                 <a href={link} target="_blank" rel="noopener noreferrer" className="blog-detail-img"><div className="blogs-icon"></div></a>
             
             </div>

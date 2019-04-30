@@ -9,7 +9,7 @@ export const blogsArray = [
         id: "b2",
         title: "Promises, promises….",
         desc: "A look at promise objects in JavaScript and an explination of why we use them and how to chain them together.",
-        link: ""
+        link: "https://medium.com/@wley3337/promises-promises-6cf6bbd5104b"
     },
     {
         id: "b3",
