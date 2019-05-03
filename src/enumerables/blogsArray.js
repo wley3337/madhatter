@@ -2,7 +2,7 @@ export const blogsArray = [
     {
         id: "b1",
         title: "Searchable toolbar with Semantic UI React with user input",
-        desc: "A walk through on how to use Sematic UI toolbar with React without Redux.",
+        desc: "A walk through on how to use Semantic UI toolbar with React without Redux.",
         link: "https://medium.com/@wley3337/searchable-tool-bar-with-semantic-ui-react-with-user-input-f6b46c80395"
     },
     {
