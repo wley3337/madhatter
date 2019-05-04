@@ -4,9 +4,10 @@ const ProjectBrief = ({title, description, githubLink, techUsed})=>{
     return(
         <div className="project-brief-div">
             <div className="project-header">
-                <p className="project-brief-title">{title}</p>
-
-                <a href={githubLink} target="_blank" rel="noopener noreferrer">
+            <a href={githubLink} target="_blank" rel="noopener noreferrer" className="project-brief-title">
+                {title}
+                </a>
+                <a href={githubLink} target="_blank" rel="noopener noreferrer" className="project-header-link">
                     <div className="project-github"></div>
                 </a>
 

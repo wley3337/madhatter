@@ -366,6 +366,12 @@ body {
   width: 100%;
   padding: 2px;
 }
+
+.project-header-link{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  
+}
 .project-brief-title{
   grid-area: title;
   letter-spacing: 1.5px;
@@ -373,12 +379,6 @@ body {
   align-self: center;
   font-size: 105%;
   
-}
-
-.project-header > a{
-  grid-column-start: 4;
-  grid-column-end: 5;
-
 }
 .project-github{
 
