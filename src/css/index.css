@@ -7,7 +7,7 @@ body {
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('https://wley3337.github.io/madhatter/img/adjusted-frame.png') no-repeat center center fixed;
+  background: url('/img/adjusted-frame.png') no-repeat center center fixed;
   background-size: 100% 100%;
 }
 
@@ -40,7 +40,7 @@ body {
   /* align-self: end; */
   height: 65px;
   width: 65px;
-  background: url("https://wley3337.github.io/madhatter/img/white-icon.png") no-repeat center center;
+  background: url("/img/white-icon.png") no-repeat center center;
   background-size: 140%;
 }
 
@@ -101,7 +101,7 @@ body {
   opacity:1;
 }
 .carousel-control-prev-icon{
-  background-image: url("https://wley3337.github.io/madhatter/img/to-the-left.png");
+  background-image: url("/img/to-the-left.png");
   background-size: 120%;
   opacity: .9;
   border-radius: 20px;
@@ -114,7 +114,7 @@ body {
   opacity:1;
 }
 .carousel-control-next-icon{
-  background-image: url("https://wley3337.github.io/madhatter/img/to-the-right.png");
+  background-image: url("/img/to-the-right.png");
   background-size: 120%;
   border-radius: 20px;
   width: 30px;
@@ -143,7 +143,7 @@ body {
   justify-self: center;
   height: 90px;
   width: 90px;
-  background: url("https://wley3337.github.io/madhatter/img/white-icon.png") no-repeat center center;
+  background: url("/img/white-icon.png") no-repeat center center;
   background-size: 140%; 
 }
 
@@ -207,7 +207,7 @@ body {
 }
 .contact-linked-in{
   line-height: 10;
-  background: url("https://wley3337.github.io/madhatter/img/linked-in.png") no-repeat center center;
+  background: url("/img/linked-in.png") no-repeat center center;
   background-size: 85%;
   height: 80px;
   width: 80px;
@@ -216,7 +216,7 @@ body {
 }
 .contact-github{
   line-height: 10;
-  background: url("https://wley3337.github.io/madhatter/img/chesserOctocat.png") no-repeat center center;
+  background: url("/img/chesserOctocat.png") no-repeat center center;
   background-size: 100%;
   height: 80px;
   width: 80px;
@@ -227,7 +227,7 @@ body {
   color: #b6ffff;
   padding-top: 55px;
   font-size: 90%;
-  background: url("https://wley3337.github.io/madhatter/img/reporter-hat-with-card.png") no-repeat center;
+  background: url("/img/reporter-hat-with-card.png") no-repeat center;
   background-size: 80%;
   text-align: center;
   height: 80px;
@@ -290,7 +290,7 @@ body {
 
 .what-will-knows-bg{
   line-height: 8;
-  background: url("https://wley3337.github.io/madhatter/img/about-hat.png") no-repeat center center;
+  background: url("/img/about-hat.png") no-repeat center center;
   background-size: 100%;
   height: 65px;
   width: 65px;
@@ -298,14 +298,14 @@ body {
 
 .in-a-nutshell-bg{
   line-height: 10;
-  background: url("https://wley3337.github.io/madhatter/img/nutshell.png") no-repeat center center;
+  background: url("/img/nutshell.png") no-repeat center center;
   background-size: 140%;
   height: 65px;
   width: 65px;
 }
 
 .exploration-bg{
-  background: url("https://wley3337.github.io/madhatter/img/explore-icon.png") no-repeat center center;
+  background: url("/img/explore-icon.png") no-repeat center center;
   background-size: 140%;
   height: 65px;
   width: 65px;
@@ -315,7 +315,7 @@ body {
 .contact-bg{
   line-height: 10;
   vertical-align: bottom;
-  background: url("https://wley3337.github.io/madhatter/img/mail.png") no-repeat center center;
+  background: url("/img/mail.png") no-repeat center center;
   background-size: 100%;
   height: 65px;
   width: 65px;
@@ -332,11 +332,6 @@ body {
   height: 500px;
   overflow-y: scroll;
   background: rgb(156,77,204, .8);
-  /* border-radius: 5%; */
-  /* display: grid; */
-  /* grid-template-rows:   30px 230px 280px 1fr ;
-  grid-template-columns: 30px minmax(300px,1fr) 30px;
-  grid-row-gap: 10px; */
 }
 .project-main-content{
   background: rgb(56,0,107);
@@ -344,62 +339,17 @@ body {
   padding: 5px;
   overflow-y: scroll;
   height: 100%;
-  /* margin: 10px; */
-  /* width:75%; */
+
 }
-/* .project-main-working{
-  padding: 9px;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  display: grid;
-  grid-template-rows: 40px 170px;
-  background: rgb(156,77,204, .65);
-} */
+
 
 .project-sub-heading{
   padding: 3px;
   margin: 5px;
   font-weight: 400;
-  /* grid-row-start: 1;
-  grid-row-end: 2; */
   text-align: center;
   letter-spacing: 1.5px;
- 
-  /* border-bottom: 1px solid black; */
- 
 }
-
-/* .in-progress-wrapper, .projects-wrapper{
-  grid-row-start: 2;
-  grid-row-end: 3;
-  overflow-y: scroll;
-  height: 100%;
-  width: 100%; 
-} */
-
-/* 
-.project-main-projects{
-  padding: 10px;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-rows: 40px 220px;
-  border-radius: 5%;
-} */
-/* 
-.project-main-projects > p{
-  font-weight: 200;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  border-bottom: 1px solid black;
-} */
-
 
 .project-brief-div{
   padding: 4px;
@@ -432,7 +382,7 @@ body {
 }
 .project-github{
 
-  background: url("https://wley3337.github.io/madhatter/img/chesserOctocat.png") no-repeat center center;
+  background: url("/img/chesserOctocat.png") no-repeat center center;
   background-size: 100%;
   height: 40px;
   width: 40px;
@@ -465,12 +415,9 @@ body {
   content: normal;
   grid-template-rows:   85px 490px ;
   grid-template-columns: minmax(270px, 350px);
-  /* grid-row-gap: 10px; */
-
 }
 
 .blogs-main-title{
-  /* background: rgb(56,0,107); */
   padding: 9px;
   font-weight: 200;
   font-size: 92%;
@@ -479,17 +426,15 @@ body {
   grid-row-end: 2;
   height: 100%;
   width: 100%;
-  /* background-color: rgb(129,212,250, .4); */
   background: rgb(56,0,107);
 }
-
-
 
 .blogs-link-text{
  color:rgb(182,255,255);
  letter-spacing: 1.5px;
  text-decoration: underline;
 }
+
 .blogs-details-wrapper{
   padding: 9px;
   padding-top: 11px;
@@ -519,8 +464,7 @@ body {
 .blog-detail-title{
   grid-area: title;
   color:rgb(182,255,255);
- letter-spacing: 1.5px;
-  /* letter-spacing: 1.5px; */
+  letter-spacing: 1.5px;
   font-weight: bold;
   font-size: 90%;
   align-self: center;
@@ -532,7 +476,7 @@ body {
   justify-self: center;
 }
 .blogs-icon{
-  background: url("https://wley3337.github.io/madhatter/img/reporter-hat-with-card.png") no-repeat center center;
+  background: url("/img/reporter-hat-with-card.png") no-repeat center center;
   background-size: 80%;
   height: 50px;
   width: 50px;
@@ -545,7 +489,7 @@ body {
 
 @media (min-width: 751px) {
 body {
-  background: url('https://wley3337.github.io/madhatter/img/doors-background.png') no-repeat center center fixed;
+  background: url('/img/doors-background.png') no-repeat center center fixed;
   background-color: rgb(0,0,0); 
   background-size: 100% 100%;
 }
@@ -571,7 +515,7 @@ body {
 #main-menu{
   border-radius: 3%;
   padding: 20px;
-  background: url('https://wley3337.github.io/madhatter/img/card-background-with-frame.png') no-repeat center center;
+  background: url('/img/card-background-with-frame.png') no-repeat center center;
   background-size: 100% 100%;
   grid-area: dt4;
 }
@@ -601,7 +545,6 @@ body {
   grid-template-columns: 1fr;
   background-color:rgb(56,0,107, .9);
   margin: 3px;
-  /* border-radius: 30%; */
 }
 .about-submenu-1{
   align-self: center;
@@ -637,7 +580,6 @@ body {
 }
 
 .project-main{
-  
   background: rgb(56,0,107, .95);
   border-radius: 5%;
   grid-template-rows:   10px 230px 280px 1fr ;
@@ -673,8 +615,5 @@ body {
   width: 100%;
   background-color: rgb(129,212,250, .4)
 }
-
-
-
 
 }
